@@ -5,5 +5,5 @@ import time
 import SPR
 
 while True:
-    SPR.SPRCalculator()
+    SPR.calculateSPRs()
     time.sleep(5)
