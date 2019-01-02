@@ -13,7 +13,7 @@ SPRs = {
     "Sam C": 0.8,
 }
 
-def calculateSPRs():
+def SPRCalculator():
     for scout, spr in SPRs.items():
         if scout == 'Aakash':
             SPRs[scout] = spr*random.randint(1,5)
